@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  constructor() { }
+
+  startDebugging(event: any): void {
+    debugger;
+    const _this = this;
+    console.log('stared debugging!');
+  }
 }
